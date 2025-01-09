@@ -1,9 +1,9 @@
 {
-  "name": "react-utils",
+  "name": "react-basic-utils",
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/react-utils.js",
+  "main": "dist/react-basic-utils.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
