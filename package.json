@@ -1,9 +1,9 @@
 {
-  "name": "@vld/react-utils",
+  "name": "react-utils",
   "private": false,
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/react-dynamic-gradient.js",
+  "main": "dist/react-utils.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
