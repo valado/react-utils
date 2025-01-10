@@ -3,7 +3,11 @@
   "private": false,
   "repository": "https://github.com/valado/react-utils",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "keywords": [
+    "react",
+    "utilities"
+  ],
   "type": "module",
   "main": "dist/react-basic-utils.js",
   "types": "dist/main.d.ts",
