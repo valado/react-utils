@@ -8,6 +8,9 @@ export enum FileType {
   CSV = "text/csv",
   JSON = "application/json",
   ZIP = "application/zip",
+  HTML = "text/html",
+  XML = "application/xml",
+  YAML = "application/x-yaml",
 }
 
 const extensionMap = {
@@ -20,6 +23,9 @@ const extensionMap = {
   [FileType.CSV]: "csv",
   [FileType.JSON]: "json",
   [FileType.ZIP]: "zip",
+  [FileType.HTML]: "html",
+  [FileType.XML]: "xml",
+  [FileType.YAML]: "yaml",
 };
 
 const addFileExtensionOptionally = (fileName: string, type: FileType) =>
