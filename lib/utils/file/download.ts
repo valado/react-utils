@@ -34,7 +34,7 @@ const addFileExtensionOptionally = (fileName: string, type: FileType) =>
 export const saveBufferToFile = (
   fileName: string,
   type: FileType,
-  bytes: Buffer
+  bytes: Buffer | string
 ) => {
   const blob = new Blob([bytes], { type });
   const link = document.createElement("a");
